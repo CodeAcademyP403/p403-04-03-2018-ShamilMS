@@ -1,0 +1,197 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav
+{
+    width: 100%;
+    height: 60px;
+    /* background-color: gray; */
+    margin: auto;padding: auto;
+
+}
+
+
+nav .navigation
+{
+width: 80%;
+height: 80px;
+/* background: green; */
+margin: auto;
+padding: auto;
+
+}
+
+nav .logo
+{
+    width: 30%;
+    height: 80px;
+    /* background: rgb(88, 58, 58); */
+    display: inline-block;
+}
+
+
+nav img
+{
+    /* margin:auto; */
+    /* padding-top: 10px; */
+
+}
+
+nav .bar
+{
+    width: 70%;
+    height: 80px;
+    /* background: yellow; */
+    float: right;
+    margin: -8px;
+    
+    
+
+}
+
+.bar li a{
+    text-decoration: none;
+}
+
+.bar li
+{
+    display: inline;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 27px 20px;
+    float: left;
+    
+    
+}
+
+.bar li a
+{
+    border-left:1px solid black;
+    border-right: 1px solid black;
+    padding-left: 4px;
+    padding-right: 4px;
+    border: transparent;
+    font-size: 70%;
+    color: black;
+    text-transform: uppercase;
+    
+    
+}
+
+.bar button
+{
+    padding: 4px;
+    margin-bottom: 9px;
+    border-radius: 5px;
+    background-color: rgb(208, 85, 40);
+    color: white;
+    border:none;
+    outline: none;
+
+    
+}
+
+.bar button:active{
+    font-size: 80%;
+}
+
+
+
+
+.bar li a:hover
+{
+    /* border: auto; */
+    border-left:1px solid black;
+    border-right: 1px solid black;
+    /* padding-left: 5px;
+    padding-right: 5px; */
+    color: rgb(240, 139, 44);
+    border-color: rgb(240, 139, 44);
+    
+}
+
+
+.bar li a:active{
+    color: rgb(224, 89, 26);
+    border-color: rgb(224, 89, 26);
+
+}
+
+/* .clearfix
+{
+    clear: both;
+} */
+
+header .bg
+{
+    width: 100%;
+    height: 700px;
+    background-image: url(../images/scape.jpg);
+    background-size: cover;
+    position: relative;
+
+    
+    
+}
+
+.desc
+{   
+    position: absolute;
+    left: 10%;
+    top: 39%;
+}
+
+.desc h1{
+    font-size: 4em;
+    color: white;
+    margin-bottom: 1px;
+}
+
+.desc p
+{
+    font-size: 1.5em;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.desc input {
+    padding: 1.5%;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    outline: none;
+    width: 21%;
+    border: 1px solid #6e7379;
+    background-color: #d73410;
+    word-spacing: 3px;
+    box-shadow: #014a81;
+}
+
+.desc input:active
+{
+    font-size: 80%;
+}    
+    
+    
+.desc>input:hover
+{
+    background-color: #d44b2f;
+    transition: 0.1s;
+    cursor: pointer;
+    
+}
+
+
+
+.button>button:hover
+{
+    background-color: #db6851;
+    transition: 0.1s;  
+    cursor: pointer;
+}
+
+

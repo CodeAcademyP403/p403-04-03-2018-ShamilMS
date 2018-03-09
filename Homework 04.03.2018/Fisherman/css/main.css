@@ -1,0 +1,180 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body
+{
+    width: 100%;
+    height: 900px;
+    background-color: gray;
+    display: inline-block;
+    background-image: url(../images/forest.jpg);
+    background-size: cover;
+}
+
+section
+{
+    width: 95%;
+    height: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    background-color: rgba(255, 255, 255, 0.726);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 10px;
+    
+}
+
+
+nav
+{
+    width: 94%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 20%;
+    text-align: center;
+    /* background-color: rgb(64, 164, 182); */
+    color: #2a4c63;
+}
+
+h1
+{
+    margin-bottom: 1%;
+    font-size: 3em;
+}
+
+h3
+{
+    margin-bottom: 1%;
+    font-size: 1em;
+}
+li
+{
+    display: inline-block;
+    padding: 1%;
+    text-align: center;
+}
+
+li:hover
+{
+    color: rgb(52, 104, 146);
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.center
+{
+    width: 94%;
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: pink; */
+    position: relative;
+    
+}
+
+.image
+{
+    width: 60%;
+    height: 100%;
+    padding: 1%;
+    /* background-color: aqua; */
+    display: inline-block;
+    background-image: url(../images/cam.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    border-radius: 500px;
+    
+}
+
+.desc
+{
+    width: 40%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    position: absolute;
+    border-radius: 500px;
+    
+    
+}
+
+.desc>h1
+{
+    margin-top: 10%;
+    margin-left: 10%;
+    color: #2a4c63;
+    
+}
+
+.desc>p
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 25px;
+    font-size: 130%;
+    color: #2a4c63;
+    
+}
+.bottom
+{
+    width: 94%;
+    height: 36%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    position: relative;
+}
+
+
+.leftbottom
+{
+    width: 48%;
+    height: 100%;
+    display: inline-block;
+    background-image: url(../images/route.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    /* vertical-align: center; */
+    padding-top: 4%;
+    border-radius: 500px;
+}
+
+.rightbottom
+{
+    width: 48%;
+    height: 100%;
+    display: inline-block;
+    /* position: absolute; */
+    float: right;
+    background-image: url(../images/himalaya.jpg);
+    background-size: cover;
+    text-align: center;
+    padding-top: 4%;
+    border-radius: 500px;
+    
+    
+    
+    
+    
+    
+
+  
+}
+
+
+i
+{
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 2%;
+}

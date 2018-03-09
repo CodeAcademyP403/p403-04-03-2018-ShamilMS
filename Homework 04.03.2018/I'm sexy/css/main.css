@@ -1,0 +1,238 @@
+*
+{
+    /* margin: 0; */
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.nav
+{
+    position: relative;
+    width: 94%;
+    height: 600px;
+    /* background-color: gray; */
+    margin:auto;
+
+}
+
+.bar
+{
+    height: 60px;
+    background-color: white;
+    position: relative;
+    
+}
+
+.bar h3
+{
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+}
+
+.ul
+{
+    width: 51%;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    text-align: center;
+}
+
+li
+{
+    display: inline-block;
+    /* padding-right: 1%; */
+    padding-left: 1%;
+    
+}
+
+.ul a
+{
+    text-decoration: none;
+    color: black;
+    transition: color 0.1s;
+    text-transform: uppercase;
+    font-size: 13px
+    
+}
+
+.circle::before
+{
+    content: "●\00a0\00a0\00a0"" "
+}
+
+a:hover
+{
+    color: rgb(250, 121, 1);
+}
+
+.image
+{
+    height: 540px;
+    background-image: url(../images/people.jpg);
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    vertical-align: center;
+
+}
+
+.desc
+{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 5%;
+
+    
+}
+
+.desc .cogicon 
+{
+    position: absolute;
+    top: 56%;
+    left: -43%;
+    color: white;
+    background-color: gray;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 2em;
+    animation-name: rotate;
+    animation-duration: 5s;
+}
+
+
+
+
+.desc .cogicon:hover
+{
+    padding: 7px;
+    transition: 0.5s;
+    background-color: orange;
+}
+
+
+
+.desc h1
+{
+    font-size: 7em;
+    text-align: center;
+    background-color: #abb4b742;
+    border-radius: 51px;
+  
+}
+
+.image .hello
+{
+    color: white;
+    
+}
+
+.image .friend
+{
+    color:orange;
+}
+
+.image .dot
+{
+    color: white;
+}
+
+.desc p
+{
+    width: fit-content;
+    color: white;
+    font-size: 2em;
+    letter-spacing: 5px;
+    background-color: #abb4b742
+    position: absolute;
+    top:65%;
+    border-radius: 51px;
+    
+}
+
+
+
+.desc .arrow
+{
+    font-size: 4em;
+    color: white;
+    margin-top: 10%;
+}
+
+.arrow i
+{
+    margin-top: 5%;
+}
+
+.desc .arrow :hover
+{
+    color: orange;
+    transition: 0.2s;
+    padding: 3px;
+}
+
+.bottom
+{
+    width: 94%;
+    height: 400px;
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    position: relative;
+}
+
+.bottom .left
+{
+    padding: 2%;
+    width: 30%;
+    height: 100%;
+    background-color: #bf3a3a;
+    color: #ede9e9;
+    display: inline-block;
+    position: absolute;
+    
+}
+
+
+.bottom .left p
+{
+    line-height: 25px;
+}
+
+.bottom .left h3
+{
+    text-transform: uppercase;
+}
+
+.bottom .right
+{
+    width: 70%;
+    height: 100%;
+    background-color: #f7f9fab2;
+    display: inline-block;
+    float: right;
+    text-align: center;
+    
+}
+
+.bottom .right i
+{
+    font-size: 4em;
+    padding: 2%;
+    margin-top: 10%;
+    color: #304a56d6;
+    
+}
+
+.bottom .right span
+{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
